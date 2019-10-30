@@ -24,41 +24,54 @@ add_to_rdf <- function(x, rdf) { # dumb implementation, but it does the job!
   return(rdf)
 }
 
-create_seealso <- function(subject, seealso, format, label = "", rdf = NULL) {
+create_seealso <- function(subject, seealso, format, label = "", rdf) {
   ld <- split_seealso(data.frame(subject = subject, 
                                  seeAlso = seealso, 
                                  format = format, 
                                  label = label, 
                                  stringsAsFactors = FALSE))
-  if (!is.null(rdf)) {
-    return(add_to_rdf(ld, rdf))
-  } else {
-    return(ld)
-  }
+
+  return(rdf_serialize(add_to_rdf(ld, rdf), format = "turtle"))
 }
 
-mint_feature <- function(subject, label, type, rdf = NULL) {
+mint_feature <- function(subject, label, type, rdf) {
   ld <- data.frame(subject = subject, label = label, 
                    type = type, stringsAsFactors = FALSE)
   ld <- rename_ld(ld)
   ld <- gather(ld, predicate, object, -subject)
   
-  if (!is.null(rdf)) {
-    return(add_to_rdf(ld, rdf))
-  } else {
-    return(ld)
-  }
+  return(rdf_serialize(add_to_rdf(ld, rdf), format = "turtle"))
 }
 
-create_association <- function(subject, predicate, object, rdf = NULL) {
+create_association <- function(subject, predicate, object, rdf) {
   ld <- data.frame(subject = subject, 
                    predicate = predicate, 
                    object = object, stringsAsFactors = FALSE)
-  if (!is.null(rdf)) {
-    return(add_to_rdf(ld, rdf))
-  } else {
-    return(ld)
+  
+  return(rdf_serialize(add_to_rdf(ld, rdf), format = "turtle"))
+}
+
+add_geometry <- function(subject, geometry, rdf) {
+  nodes <- paste0("g", seq(1, length(subject)))
+  
+  for(i in 1:length(subject)) {
+  rdf <- rdf_add(rdf, 
+                  subject = subject[i], 
+                  predicate = "http://www.opengeospatial.org/standards/geosparql/hasGeometry", 
+                  object = nodes[i], objectType = "blank")
+  
+  rdf <- rdf_add(rdf, 
+                  subject = nodes[i], 
+                  predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+                  object = "http://www.opengeospatial.org/standards/geosparql/Geometry", 
+                  subjectType = "blank")
+  
+  rdf <- rdf_add(rdf, 
+                  subject = nodes[i], 
+                  predicate = "http://www.opengeospatial.org/standards/geosparql/asWKT", 
+                  object = st_as_text(st_zm(geometry[i])), subjectType = "blank")
   }
+  return(rdf_serialize(rdf, format = "turtle"))
 }
 
 rename_ld <- function(x) {
