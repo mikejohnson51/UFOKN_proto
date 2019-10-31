@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="localhost://">
+  <rdf:Description rdf:nodeID="r1572539494r50615r14">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/Buffalo">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
@@ -12,53 +15,41 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/unknownname3">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r6">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r20">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/EastSanJacinto">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/EastSanJacinto"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/Buffalo">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/Buffalo"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r18">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/garnersbayou">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/garnersbayou"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r28">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.47051 30.42108)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/CypressCreek">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r3"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/LuceBayou">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/LuceBayou"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r3">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/unknownname2">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r29">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.50978 29.92499)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/simsbayou">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r10">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/colecrek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r4">
+  <rdf:Description rdf:nodeID="r1572539494r50615r11">
     <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/greensbayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r19"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r15">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r19"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/whiteoaks">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
@@ -66,32 +57,38 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/unknownname3">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/unknownname3"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r13">
+  <rdf:Description rdf:nodeID="r1572539494r50615r15">
     <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r28">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.47051 30.42108)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r25">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/unknownname2">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r28"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r12">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.23084 29.65886)</ns0:asWKT>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r28"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/braysbayou">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r19">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.4157 29.95615)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/smayde">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/whiteoaks">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r30"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r30"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r26">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.71069 29.80546)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/LuceBayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r8"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r8"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/EastSanJacinto">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">EastSanJacinto</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r11">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.56411 30.35631)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/unknownname2">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">unknownname2</ns0:label>
@@ -100,13 +97,13 @@
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/springcreek">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r27"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r27"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/colecrek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">colecrek</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/simsbayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r25"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r25"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/brickhouse">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/brickhouse"/>
@@ -114,35 +111,41 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/buffaloaddicks">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r16">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-94.98535 29.97165)</ns0:asWKT>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/smayde">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r26"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r26"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/CaneyCreek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">CaneyCreek</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r24">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.37047 29.79726)</ns0:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r23">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.65471 29.86994)</ns0:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r4">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.10674 30.3473)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/REPT-0010">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">REPT-0010</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r1">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/hallsbayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r20"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r20"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r14">
+  <rdf:Description rdf:nodeID="r1572539494r50615r16">
     <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r10">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-94.99644 29.69255)</ns0:asWKT>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r27">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  <rdf:Description rdf:nodeID="r1572539494r50615r12">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.23084 29.65886)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/GooseCreek">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r5"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r5"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r13">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.58494 29.70927)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r3">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.84004 29.92194)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/langhamcreek">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
@@ -150,17 +153,8 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/hallsbayou">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/hallsbayou"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r16">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/LuceBayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">LuceBayou</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r7">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.7025 30.01598)</ns0:asWKT>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r23">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/WestSanJacinto">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
@@ -190,25 +184,22 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/berrybayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r12"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r12"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r1">
+  <rdf:Description rdf:nodeID="r1572539494r50615r1">
     <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.81436 29.75107)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/hallsbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">hallsbayou</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/EastSanJacinto">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r4"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r1">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r4"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/berrybayou">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/PeachCreek">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r9"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r9"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/keegansbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">keegansbayou</ns0:label>
@@ -216,20 +207,17 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/CaneyCreek">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r21">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/whiteoaks">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r2">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.31212 30.26987)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r27">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.43941 30.10964)</ns0:asWKT>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r30">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.48153 29.873)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r25">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.4521 29.61824)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/unknownname3">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r29"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r29"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/LuceBayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
@@ -243,32 +231,38 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/CypressCreek">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/CypressCreek"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r25">
+  <rdf:Description rdf:nodeID="r1572539494r50615r24">
     <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/garnersbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">garnersbayou</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/littlewhiteoak">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r24"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r24"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r23">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/colecrek">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r2">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/garnersbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r22">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.56008 29.65662)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r7">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/keegansbayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r22"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r24">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.37047 29.79726)</ns0:asWKT>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r22"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/CaneyCreek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r27">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/EastSanJacinto">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
@@ -276,17 +270,20 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/REPT-0010">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r20">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/LittleCypress">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ufokn.demo/gages/huntingbayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r21"/>
+  <rdf:Description rdf:nodeID="r1572539494r50615r9">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.17094 30.24279)</ns0:asWKT>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r23">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.65471 29.86994)</ns0:asWKT>
+  <rdf:Description rdf:about="https://ufokn.demo/gages/huntingbayou">
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r21"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/braysbayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r13"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r13"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/berrybayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">berrybayou</ns0:label>
@@ -294,8 +291,14 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/langhamcreek">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r16">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-94.98535 29.97165)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/berrybayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r19">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/simsbayou">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/simsbayou"/>
@@ -306,20 +309,17 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/EastSanJacinto">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r2">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.31212 30.26987)</ns0:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r17">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/littlewhiteoak">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/littlewhiteoak"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r14">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.47397 29.82798)</ns0:asWKT>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/LakeCreek">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r30">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r8">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/GooseCreek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
@@ -342,11 +342,14 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/huntingbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r18">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.23594 29.9383)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/unknownname3">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">unknownname3</ns0:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r25">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.4521 29.61824)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r3">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/buffaloaddicks">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
@@ -361,7 +364,7 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">whiteoaks</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/CaneyCreek">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r2"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r2"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/garnersbayou">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
@@ -375,17 +378,17 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/huntingbayou">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/huntingbayou"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r11">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.56411 30.35631)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r18">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r5">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-94.99944 29.771)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r21">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.3128 29.80873)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/CaneyCreek">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/langhamcreek">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r23"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r23"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/EastSanJacinto">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
@@ -406,19 +409,22 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/WestSanJacinto">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r11"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r11"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/smayde">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">smayde</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r3">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.84004 29.92194)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/LuceBayou">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/cedarbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">cedarbayou</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r22">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.56008 29.65662)</ns0:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r14">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.47397 29.82798)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/littlewhiteoak">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">littlewhiteoak</ns0:label>
@@ -429,20 +435,14 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/braysbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r29">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.50978 29.92499)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/unknownname2">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/unknownname2"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r5">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/brickhouse">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">brickhouse</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r11">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r6">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.56665 30.25652)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/Buffalo">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">Buffalo</ns0:label>
@@ -456,7 +456,10 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/cedarbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r24">
+  <rdf:Description rdf:nodeID="r1572539494r50615r4">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r8">
     <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/berrybayou">
@@ -464,9 +467,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/simsbayou">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r19">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/REPT-0010">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
@@ -483,18 +483,6 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/PeachCreek">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r18">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.23594 29.9383)</ns0:asWKT>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r7">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r29">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r2">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/REPT-0010">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
@@ -505,7 +493,10 @@
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/REPT-0010">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r10"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r10"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r28">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/berrybayou">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/berrybayou"/>
@@ -514,31 +505,28 @@
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/CaneyCreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/LakeCreek">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r6"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r21">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r9">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/WestSanJacinto">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r4">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.10674 30.3473)</ns0:asWKT>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r20">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.33922 29.86324)</ns0:asWKT>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/huntingbayou">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r10">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-94.99644 29.69255)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/CypressCreek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">CypressCreek</ns0:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r9">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.17094 30.24279)</ns0:asWKT>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/langhamcreek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">langhamcreek</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r10">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/smayde">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
@@ -547,7 +535,7 @@
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/cedarbayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r16"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r16"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/buffaloaddicks">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">buffaloaddicks</ns0:label>
@@ -556,7 +544,7 @@
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/WestSanJacinto"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/colecrek">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r17"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r17"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/springcreek">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
@@ -564,23 +552,41 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/whiteoaks">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/whiteoaks"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r30">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r5">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-94.99944 29.771)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/keegansbayou">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/keegansbayou"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r17">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.49451 29.85354)</ns0:asWKT>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/garnersbayou">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r18"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r18"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r21">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.3128 29.80873)</ns0:asWKT>
+  <rdf:Description rdf:nodeID="r1572539494r50615r13">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.58494 29.70927)</ns0:asWKT>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r12">
+  <rdf:Description rdf:nodeID="r1572539494r50615r26">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r6">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.56665 30.25652)</ns0:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r5">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r8">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.05853 30.11122)</ns0:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r13">
     <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/Buffalo">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r1"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r12">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/PeachCreek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">PeachCreek</ns0:label>
@@ -600,14 +606,14 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/greensbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">greensbayou</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r17">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.49451 29.85354)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/littlewhiteoak">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/LittleCypress">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r7"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r17">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r7"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/greensbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
@@ -617,9 +623,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/greensbayou">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/greensbayou"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r22">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/LuceBayou">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
@@ -631,28 +634,34 @@
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/buffaloaddicks">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r15"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r15"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/brickhouse">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r30">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.48153 29.873)</ns0:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r20">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.33922 29.86324)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/Buffalo">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r19">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.4157 29.95615)</ns0:asWKT>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/springcreek">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r22">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r6">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/hallsbayou">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/buffaloaddicks">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/buffaloaddicks"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r28">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/hallsbayou">
     <ns0:format xmlns:ns0="http://purl.org/dc/terms/">application/vnd.geo+json</ns0:format>
@@ -669,38 +678,32 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/simsbayou">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">simsbayou</ns0:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r7">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.7025 30.01598)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/WestSanJacinto">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r29">
+    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/langhamcreek">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/langhamcreek"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="r1572539494r50615r15">
+    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.61033 29.76109)</ns0:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/LittleCypress">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r27">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.43941 30.10964)</ns0:asWKT>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r26">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.71069 29.80546)</ns0:asWKT>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/WestSanJacinto">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">WestSanJacinto</ns0:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r15">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.61033 29.76109)</ns0:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/get_data/langhamcreek">
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">GeoJSON Representation</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/CypressCreek">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r8">
-    <ns0:asWKT xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/">POINT (-95.05853 30.11122)</ns0:asWKT>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r26">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/PeachCreek">
     <rdf:type rdf:resource="https://ufokn.demo/type/gage/"/>
@@ -714,10 +717,7 @@
   <rdf:Description rdf:about="https://ufokn.demo/gages/LittleCypress">
     <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://ufokn.demo/gages/get_data/LittleCypress"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="r1572399413r24975r9">
-    <rdf:type rdf:resource="http://www.opengeospatial.org/standards/geosparql/Geometry"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/gages/brickhouse">
-    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572399413r24975r14"/>
+    <ns0:hasGeometry xmlns:ns0="http://www.opengeospatial.org/standards/geosparql/" rdf:nodeID="r1572539494r50615r14"/>
   </rdf:Description>
 </rdf:RDF>

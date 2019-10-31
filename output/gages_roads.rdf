@@ -1,222 +1,273 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="localhost://">
   <rdf:Description rdf:about="https://ufokn.demo/roads/110755138462">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/110755138462"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname2"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1103671454848">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1103671454848"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/garnersbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105550855741">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105550855741"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841775255">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841775255"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841775255">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/littlewhiteoak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841775255">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/greensbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1103691644589">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1103691644589"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/langhamcreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101842209150">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101842209150"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105544413070">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105544413070"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841445197">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841445197"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105550855739">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105550855739"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105550844402">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105550844402"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841459749">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841459749"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/huntingbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1102431020881">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1102431020881"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/berrybayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104258580181">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104258580181"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/cedarbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101842261721">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101842261721"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/littlewhiteoak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101842261721">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/greensbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/110755127659">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/110755127659"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841409468">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841409468"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/littlewhiteoak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841409468">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/greensbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104485176087">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104485176087"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1104485176087">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/garnersbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105556222111">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105556222111"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/PeachCreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841587855">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841587855"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/huntingbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/110755127855">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/110755127855"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/WestSanJacinto"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533824547">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533824547"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105556223312">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105556223312"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/PeachCreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105550809562">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105550809562"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533831924">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533831924"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105556222601">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105556222601"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/PeachCreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104486304197">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104486304197"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/brickhouse"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1103671454662">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1103671454662"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/garnersbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104485176163">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104485176163"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533831905">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533831905"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841775258">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841775258"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841775258">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/littlewhiteoak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841775258">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/greensbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104485175839">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104485175839"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841445193">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841445193"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104486237579">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104486237579"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/cedarbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104486282455">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104486282455"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/brickhouse"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105550855732">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105550855732"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841361655">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841361655"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841361655">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/garnersbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841445205">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841445205"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101842209147">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101842209147"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101842209151">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101842209151"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533832126">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533832126"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104484397634">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104484397634"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1104484397634">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/littlewhiteoak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1104484397634">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/greensbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1103691596775">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1103691596775"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1103691596775">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/garnersbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104485176164">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104485176164"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104485645434">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104485645434"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/langhamcreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841334199">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841334199"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/berrybayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533811407">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533811407"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/110755138467">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/110755138467"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname2"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841409465">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841409465"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841409465">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/littlewhiteoak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841409465">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/greensbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104485176211">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104485176211"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1104485176211">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/garnersbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533831942">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533831942"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841459738">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841459738"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/huntingbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841445201">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841445201"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533812256">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533812256"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101842262706">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101842262706"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/brickhouse"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101842227046">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101842227046"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101842227046">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/garnersbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841445209">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841445209"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104485175838">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104485175838"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104484266334">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104484266334"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname2"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533812253">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533812253"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104258580180">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104258580180"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/cedarbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841587850">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841587850"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/huntingbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101841361674">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101841361674"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1101841361674">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/garnersbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101842209149">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101842209149"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105550843876">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105550843876"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104486237527">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104486237527"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/cedarbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533811368">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533811368"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104486282457">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104486282457"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/colecrek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ufokn.demo/roads/1104486282457">
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/brickhouse"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1104484397635">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1104484397635"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/springcreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/110755128415">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/110755128415"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname2"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105556222591">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105556222591"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/PeachCreek"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105550758256">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105550758256"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/hallsbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1105533811410">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1105533811410"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/keegansbayou"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ufokn.demo/roads/1101842209148">
-    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/1101842209148"/>
+    <ns0:nearbyGage xmlns:ns0="https://ufokn.demo/association/" rdf:resource="https://ufokn.demo/gages/unknownname3"/>
   </rdf:Description>
 </rdf:RDF>

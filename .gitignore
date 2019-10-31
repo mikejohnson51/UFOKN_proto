@@ -3,3 +3,4 @@ data
 .Rproj.user/
 .drake/
 .drake_history/
+.RHistory
