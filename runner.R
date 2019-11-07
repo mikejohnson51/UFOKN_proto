@@ -6,15 +6,17 @@
 # drive_download("1Dy1kkSq6D7NRUt1svRTOejjIu1HO3x8K", "data/flood_points", overwrite = FALSE)
 # DL was manual
 
+
 library("drake")
 source("R/source.R")
 source("R/rdf_utils.R")
 
 plan <- drake_plan(out_prj = 4326, # wgs84 lat/lon
                    ann_prj = 5070, # albers in meters
-                   dist = 1000, # meters
-                   roads = load_shp_data("data/major_roads/", out_prj),
-                   gages = load_shp_data("data/gages/", out_prj),
+                   dist    = 1000, # meters
+                   roads = load_shp_data("data/roads/", out_prj),
+                   gages = load_shp_data("./data/nwis/gages.shp", out_prj),
+                   nhd   = load_shp_data("./data/nhd/flowlines.shp", out_prj),
                    close_gages = find_gage_points(roads, gages, ann_prj, dist),
                    roads_base_uri = "https://ufokn.demo/roads/",
                    gages_base_uri = "https://ufokn.demo/gages/",
